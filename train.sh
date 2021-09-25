@@ -1,0 +1,1 @@
+python main_train.py --input_name polyp_with_4_channels.png  --nc_z 4 --nc_im 4 --gpu_id 0

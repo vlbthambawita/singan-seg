@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# added by Vajira
+TrainedModels
+
 # Distribution / packaging
 .Python
 build/
