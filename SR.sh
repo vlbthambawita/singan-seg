@@ -1,0 +1,1 @@
+python SR.py --input_name datacenter_10_gen.png  --nc_z 4 --nc_im 4 --input_dir /work/vajira/DATA/michael_data/img_and_mask_together_part_1 --gpu_id 0
