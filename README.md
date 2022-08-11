@@ -1,6 +1,18 @@
 # singan-seg
 This is the development repository of SinGAN-Seg
 
+# Setup required packages
+
+- Install requirements.txt using the following command
+````python
+pip install -r requirements.txt
+````
+- Install pytorch (tested with 1.12.1) as described in https://pytorch.org/
+
+- Run the following commands to train or generate samples from pre-trained models
+
+
+
 ## To train
 
 ```
