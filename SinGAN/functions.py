@@ -85,6 +85,9 @@ def convert_image_np_2d(inp):
     return inp
 
 def generate_noise(size,device,num_samp=1,type='gaussian', scale=1):
+    # for float encountered instead of int error
+    # https://github.com/deep-learning-with-pytorch/dlwpt-code/issues/62
+    size = [int(x) for x in size]
     if type == 'gaussian':
         noise = torch.randn(num_samp, size[0], round(size[1]/scale), round(size[2]/scale), device=device)
         noise = upsampling(noise,size[1], size[2])
